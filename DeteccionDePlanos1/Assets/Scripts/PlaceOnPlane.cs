@@ -15,7 +15,7 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(ARPlaneManager))]
 public class PlaceOnPlane : MonoBehaviour
 {
-            
+
     [SerializeField]
     [Tooltip("Instantiates this prefab on a plane at the touch location.")]
     GameObject m_PlacedPrefab;
@@ -24,7 +24,7 @@ public class PlaceOnPlane : MonoBehaviour
     //[Tooltip("Instantiates this prefab on a plane at the touch location.")]
     //GameObject n_PlacedPrefab;
 
-     
+
     /// <summary>
     /// The prefab to instantiate on touch.
     /// </summary>
@@ -33,7 +33,7 @@ public class PlaceOnPlane : MonoBehaviour
         get { return m_PlacedPrefab; }
         set { m_PlacedPrefab = value; }
     }
-        
+
     /// <summary>
     /// The object instantiated as a result of a successful raycast intersection with a plane.
     /// </summary>
@@ -45,7 +45,7 @@ public class PlaceOnPlane : MonoBehaviour
     {
         m_RaycastManager = GetComponent<ARRaycastManager>();
         m_ARPlaneManager = GetComponent<ARPlaneManager>();
-    }        
+    }
     bool TryGetTouchPosition(out Vector2 touchPosition)
     {
         if (Input.touchCount > 0)
@@ -64,13 +64,13 @@ public class PlaceOnPlane : MonoBehaviour
         foreach (var plane in m_ARPlaneManager.trackables)
             plane.gameObject.SetActive(value);
     }
-    
+
     public RaycastTouch raycastscript;//Activar el menú
     void Update()
     {
         if (!TryGetTouchPosition(out Vector2 touchPosition))
             return;
-            
+
         if (m_RaycastManager.Raycast(touchPosition, s_Hits, TrackableType.PlaneWithinPolygon))
         {
             // Raycast hits are sorted by distance, so the first one
@@ -83,18 +83,17 @@ public class PlaceOnPlane : MonoBehaviour
                 //squarespawnedObject = Instantiate(n_PlacedPrefab, hitPose.position, hitPose.rotation);
                 SetAllPlanesActive(false);
                 m_ARPlaneManager.enabled = !m_ARPlaneManager.enabled;
-            raycastscript.ActivarMenu();
+                raycastscript.ActivarMenu();
             }
             else
             {
                 return;
             }
         }
-                        
+
     }
 
     static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
     ARRaycastManager m_RaycastManager;
 }
-
