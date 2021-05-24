@@ -5,6 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Primero
+  - Emperador
+  - Magno
+  - EsculturaMex
+  - Piramide
+  - IglCatedral
+  - StLibertad
+  - TorreEifl
+  - Sol
+  - Tierra
+  - iss
+  - Traje
   layers:
   - Default
   - TransparentFX
