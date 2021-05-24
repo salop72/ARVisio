@@ -1,24 +1,28 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Listens for touch events and performs an AR raycast from the screen touch point.
-/// AR raycasts will only hit detected trackables like feature points and planes.
-///
-/// If a raycast hits a trackable, the <see cref="placedPrefab"/> is instantiated
-/// and moved to the hit position.
-/// </summary>
-[RequireComponent(typeof(ARRaycastManager))]
-public class Placemuseos : MonoBehaviour
-{
-
+    /// <summary>
+    /// Listens for touch events and performs an AR raycast from the screen touch point.
+    /// AR raycasts will only hit detected trackables like feature points and planes.
+    ///
+    /// If a raycast hits a trackable, the <see cref="placedPrefab"/> is instantiated
+    /// and moved to the hit position.
+    /// </summary>
+    [RequireComponent(typeof(ARRaycastManager))]
+    [RequireComponent(typeof(ARPlaneManager))]
+    public class Placemuseos : MonoBehaviour
+    {
         [SerializeField]
         [Tooltip("Instantiates this prefab on a plane at the touch location.")]
         GameObject m_PlacedPrefab;
+
+        //[SerializeField]
+        //[Tooltip("Instantiates this prefab on a plane at the touch location.")]
+        //GameObject n_PlacedPrefab;
+
 
         /// <summary>
         /// The prefab to instantiate on touch.
@@ -28,18 +32,24 @@ public class Placemuseos : MonoBehaviour
             get { return m_PlacedPrefab; }
             set { m_PlacedPrefab = value; }
         }
+        //public GameObject nplacedPrefab
+        //{
+        //    get { return n_PlacedPrefab; }
+        //    set { n_PlacedPrefab = value; }
+        //}
 
-    /// <summary>
-    /// The object instantiated as a result of a successful raycast intersection with a plane.
-    /// </summary>
+        /// <summary>
+        /// The object instantiated as a result of a successful raycast intersection with a plane.
+        /// </summary>
         public GameObject spawnedObject { get; private set; }
         public GameObject squarespawnedObject { get; private set; }
+
         ARPlaneManager m_ARPlaneManager;
         void Awake()
         {
             m_RaycastManager = GetComponent<ARRaycastManager>();
             m_ARPlaneManager = GetComponent<ARPlaneManager>();
-    }
+        }
 
         bool TryGetTouchPosition(out Vector2 touchPosition)
         {
@@ -59,7 +69,6 @@ public class Placemuseos : MonoBehaviour
             foreach (var plane in m_ARPlaneManager.trackables)
                 plane.gameObject.SetActive(value);
         }
-
         void Update()
         {
             if (!TryGetTouchPosition(out Vector2 touchPosition))
@@ -79,12 +88,13 @@ public class Placemuseos : MonoBehaviour
                 }
                 else
                 {
-                    spawnedObject.transform.position = hitPose.position;
+                    return;
                 }
             }
+
         }
 
         static List<ARRaycastHit> s_Hits = new List<ARRaycastHit>();
 
         ARRaycastManager m_RaycastManager;
- }
+    }

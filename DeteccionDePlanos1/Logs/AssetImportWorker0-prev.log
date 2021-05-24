@@ -15,11 +15,11 @@ D:/unityfiles/ARVisio/DeteccionDePlanos1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57983
+50222
 Successfully changed project path to: D:/unityfiles/ARVisio/DeteccionDePlanos1
 D:/unityfiles/ARVisio/DeteccionDePlanos1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,321 +35,174 @@ Initialize mono
 Mono path[0] = 'D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001180 seconds.
+Registered in 0.001538 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.536 seconds
+- Completed reload, in  1.810 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000546 seconds.
+Registered in 0.000774 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
+- Completed reload, in  0.817 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1453 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.0 MB.
+System memory in use before: 68.1 MB.
 System memory in use after: 68.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 2.048500 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.096300 ms MarkObjects: 1.682100 ms  DeleteObjects: 0.066700 ms)
+Total: 1.725200 ms (FindLiveObjects: 0.138700 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.481800 ms  DeleteObjects: 0.055500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/ModelPrefabs/British/British.prefab
-  artifactKey: Guid(418c891eea237624694a7c642231c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/British/British.prefab using Guid(418c891eea237624694a7c642231c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b4150fe217020924c6217ab807673b') in 1.338905 seconds
-  Import took 1.363058 seconds .
+  path: Assets/Scripts/Placemuseos.cs
+  artifactKey: Guid(599ba32d0c05a1242890dd451645d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Placemuseos.cs using Guid(599ba32d0c05a1242890dd451645d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40df82616141214540911672c47cc81d') in 0.042442 seconds
+  Import took 0.061131 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 65.446975 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c992f496bcbd789fca8fc1009367d9f') in 0.406967 seconds
-  Import took 0.425564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.006123 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3b5a0823df2d557f7024594c6f100f') in 0.616428 seconds
-  Import took 0.642252 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.3 MB.
-System memory in use after: 43.4 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1909.
-Total: 2.631700 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.058900 ms MarkObjects: 2.370600 ms  DeleteObjects: 0.013200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 307.789459 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb45448a64ce1a3a2869c6eaad9edce') in 0.721375 seconds
-  Import took 0.739621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.382015 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b21ddf00d229bac2ac1afa0905dd5e') in 0.468075 seconds
-  Import took 0.541507 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.3 MB.
-System memory in use after: 43.4 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1909.
-Total: 1.952700 ms (FindLiveObjects: 0.136400 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.761800 ms  DeleteObjects: 0.012700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.223430 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88863e634d95490a2e8c6eb00ee41f13') in 0.745175 seconds
-  Import took 0.884533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.950081 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5851db3fd86bf91099d328c63a656041') in 0.502992 seconds
-  Import took 0.510999 seconds .
+  Time since last request: 7.719371 seconds.
+  path: Assets/Scripts/Placemuseos.cs
+  artifactKey: Guid(599ba32d0c05a1242890dd451645d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Placemuseos.cs using Guid(599ba32d0c05a1242890dd451645d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8be7aa5d248bd35605a5e436c48a1') in 0.001821 seconds
+  Import took 0.026682 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000898 seconds.
+Registered in 0.000562 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.692 seconds
+- Completed reload, in  0.748 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.7 MB.
-System memory in use after: 71.8 MB.
+Unloading 1444 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 67.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1913.
-Total: 1.846300 ms (FindLiveObjects: 0.179800 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.608200 ms  DeleteObjects: 0.013400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 1.988100 ms (FindLiveObjects: 0.159400 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.744300 ms  DeleteObjects: 0.024600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
-Received Import Request.
-  Time since last request: 377.154106 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b2efe45a53c4efd7a431e8c5f3a472') in 0.467228 seconds
-  Import took 0.475026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.090027 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb68a7cc81a07d92c1b25403cc545aae') in 0.447778 seconds
-  Import took 0.456406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.773402 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fb610fb7dc531bba6b4652766b743f') in 0.540970 seconds
-  Import took 0.661617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.222521 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5ef7c0d04bc0c456ed213404ce3a0e') in 0.448099 seconds
-  Import took 0.523710 seconds .
-
-========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000757 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.8 MB.
-System memory in use after: 71.9 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 1.587800 ms (FindLiveObjects: 0.139700 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.382000 ms  DeleteObjects: 0.024300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 50.589225 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74883e748750c407c6f419d3f82aca08') in 0.444112 seconds
-  Import took 0.487141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.727631 seconds.
-  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
-  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494cf35f1170e57c7ebbbe76b99538b') in 0.377618 seconds
-  Import took 0.385459 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 44.0 MB.
-System memory in use after: 44.1 MB.
+System memory in use before: 38.7 MB.
+System memory in use after: 38.9 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1919.
-Total: 2.237600 ms (FindLiveObjects: 0.195600 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.966800 ms  DeleteObjects: 0.016500 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 1.606600 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.418000 ms  DeleteObjects: 0.010700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 505.253161 seconds.
+  path: Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab
+  artifactKey: Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModelPrefabs/Planetario/Planetario.prefab using Guid(595747fee97bf9f448e469c9ba39a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c73eeb06b8f0b77287ec0103611b16') in 0.773092 seconds
+  Import took 0.895676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.065493 seconds.
+  path: Assets/Prefabs/ModelPrefabs/British/ObjetoBritish.prefab
+  artifactKey: Guid(07648b54abe99e24faa3378765880ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModelPrefabs/British/ObjetoBritish.prefab using Guid(07648b54abe99e24faa3378765880ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1e8d81e7ea577293ed30415242005c') in 0.965068 seconds
+  Import took 1.175599 seconds .
 
 ========================================================================
 Received Prepare
 Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.9 MB.
-System memory in use after: 44.0 MB.
+System memory in use before: 43.3 MB.
+System memory in use after: 43.4 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1919.
-Total: 2.516600 ms (FindLiveObjects: 0.191000 ms CreateObjectMapping: 0.051600 ms MarkObjects: 2.260300 ms  DeleteObjects: 0.012700 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.684000 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.048200 ms MarkObjects: 2.461200 ms  DeleteObjects: 0.011200 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.3 MB.
+Received Import Request.
+  Time since last request: 147.405194 seconds.
+  path: Assets/Prefabs/ModelPrefabs/British/BritishMuseum.prefab
+  artifactKey: Guid(64ed2562323177f479c825e359b91ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModelPrefabs/British/BritishMuseum.prefab using Guid(64ed2562323177f479c825e359b91ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf378dc6d58b0ab2a2037fb0ad6b46b') in 0.842660 seconds
+  Import took 0.943638 seconds .
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1922.
-Total: 1.764000 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.495700 ms  DeleteObjects: 0.066300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 38.573863 seconds.
+  path: Assets/Scenes/Portal3.unity
+  artifactKey: Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Portal3.unity using Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc383fd9c5f5822fbd60fdc094ca1d32') in 0.005616 seconds
+  Import took 0.008764 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 97.074587 seconds.
+  path: Assets/Prefabs/ModelPrefabs/Planetario/PlanetarioExpo.prefab
+  artifactKey: Guid(f7c0b872fb8fabe479273e5c2a243c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModelPrefabs/Planetario/PlanetarioExpo.prefab using Guid(f7c0b872fb8fabe479273e5c2a243c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880f986f215628dc9a9aa64dba68f7e7') in 0.700847 seconds
+  Import took 0.717752 seconds .
+
 ========================================================================
 Received Prepare
 Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.8 MB.
-System memory in use after: 44.0 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.4 MB.
+System memory in use after: 43.6 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1923.
-Total: 2.048100 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.761200 ms  DeleteObjects: 0.010300 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.884500 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.083200 ms MarkObjects: 2.525700 ms  DeleteObjects: 0.013700 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000591 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.710 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.2 MB.
-System memory in use after: 72.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1926.
-Total: 1.785300 ms (FindLiveObjects: 0.287500 ms CreateObjectMapping: 0.119000 ms MarkObjects: 1.352600 ms  DeleteObjects: 0.024900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Import Request.
-  Time since last request: 1181.608655 seconds.
+  Time since last request: 480.881206 seconds.
+  path: Assets/Prefabs/ModelPrefabs/British/BritishMuseum.prefab
+  artifactKey: Guid(64ed2562323177f479c825e359b91ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ModelPrefabs/British/BritishMuseum.prefab using Guid(64ed2562323177f479c825e359b91ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a8f1e5a0806a026a30ac6570f06dc0') in 0.708346 seconds
+  Import took 0.731909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.273895 seconds.
   path: Assets/Scenes/Portal1.unity
   artifactKey: Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal1.unity using Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a989e595a1a38fda9820df81726901') in 0.018417 seconds
-  Import took 0.021548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.944774 seconds.
-  path: Assets/Scenes/Portal2.unity
-  artifactKey: Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal2.unity using Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392a3604b6e174c92531f2af8678d4db') in 0.001688 seconds
-  Import took 0.015102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.988084 seconds.
-  path: Assets/Scenes/Portal3.unity
-  artifactKey: Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal3.unity using Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b0ceddad577dd6e5575dd77ccd1fe7') in 0.002406 seconds
-  Import took 0.005535 seconds .
+Start importing Assets/Scenes/Portal1.unity using Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17012531ccf5a8d950e7c1cc6b4c551c') in 0.005697 seconds
+  Import took 0.017384 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.9 MB.
-System memory in use after: 44.0 MB.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 43.5 MB.
+System memory in use after: 43.6 MB.
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1927.
-Total: 4.440700 ms (FindLiveObjects: 0.306700 ms CreateObjectMapping: 0.121500 ms MarkObjects: 3.995400 ms  DeleteObjects: 0.015300 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1913.
+Total: 2.987500 ms (FindLiveObjects: 0.176700 ms CreateObjectMapping: 0.045100 ms MarkObjects: 2.747500 ms  DeleteObjects: 0.016800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
