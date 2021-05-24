@@ -15,11 +15,11 @@ D:/unityfiles/ARVisio/DeteccionDePlanos1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57322
+58509
 Successfully changed project path to: D:/unityfiles/ARVisio/DeteccionDePlanos1
 D:/unityfiles/ARVisio/DeteccionDePlanos1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.6f1 (338bb68529b2)
 [Subsystems] Discovering subsystems at path D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programas/Unity/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001115 seconds.
+Registered in 0.001148 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 23.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.478 seconds
+- Completed reload, in  1.397 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000571 seconds.
+Registered in 0.000551 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.804 seconds
+- Completed reload, in  0.758 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -62,141 +62,24 @@ Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1453 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.0 MB.
-System memory in use after: 68.0 MB.
+System memory in use after: 68.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 1.633200 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.365100 ms  DeleteObjects: 0.055700 ms)
+Total: 1.851200 ms (FindLiveObjects: 0.149600 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.586800 ms  DeleteObjects: 0.059600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Portal2.unity
-  artifactKey: Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal2.unity using Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38152117efa2f5e588dd06d56a4f4774') in 0.009942 seconds
-  Import took 0.011987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 232.041962 seconds.
   path: Assets/Scenes/Portal1.unity
   artifactKey: Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal1.unity using Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da0fb5176a10a32b363a6212bb0acd7') in 0.002237 seconds
-  Import took 0.012849 seconds .
+Start importing Assets/Scenes/Portal1.unity using Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af82495d322d3cc461db8feb8230add9') in 0.010376 seconds
+  Import took 0.033229 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.482074 seconds.
+  Time since last request: 150.763435 seconds.
   path: Assets/Scenes/Portal2.unity
   artifactKey: Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal2.unity using Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ebd6b3ffc8c369a439cbc2e14b0b88') in 0.002105 seconds
-  Import took 0.005557 seconds .
+Start importing Assets/Scenes/Portal2.unity using Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385694607f3188a8ec1b55b860b06816') in 0.002248 seconds
+  Import took 0.020466 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 94.921565 seconds.
-  path: Assets/Scenes/Portal1.unity
-  artifactKey: Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal1.unity using Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7c949843127b43212601533d6f0e4f') in 0.001715 seconds
-  Import took 0.004554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.348151 seconds.
-  path: Assets/Scenes/Portal3.unity
-  artifactKey: Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal3.unity using Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302deed3e60a7d736d2d77f7f157ed79') in 0.001992 seconds
-  Import took 0.013709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 99.255869 seconds.
-  path: Assets/Scenes/Portal2.unity
-  artifactKey: Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal2.unity using Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd4b15e613ac61f42347c19c87c95e1') in 0.001648 seconds
-  Import took 0.003896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.052712 seconds.
-  path: Assets/Scenes/Portal3.unity
-  artifactKey: Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal3.unity using Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20bbdd54107084ef82b25ecc25abc48') in 0.001722 seconds
-  Import took 0.004370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.735060 seconds.
-  path: Assets/Scenes/Portal1.unity
-  artifactKey: Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal1.unity using Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd167cb4b4812cebe9f7a4c7e3791978d') in 0.002019 seconds
-  Import took 0.005147 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 38.6 MB.
-System memory in use after: 38.7 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1897.
-Total: 3.044100 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.058400 ms MarkObjects: 2.731000 ms  DeleteObjects: 0.012200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 417.832500 seconds.
-  path: Assets/Scenes/Portal2.unity
-  artifactKey: Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal2.unity using Guid(6337a589483c8824ea664681ac086614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec65fd95cfee5b3ea15dc3a87eefe32') in 0.003691 seconds
-  Import took 0.007245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.288386 seconds.
-  path: Assets/Scenes/Portal1.unity
-  artifactKey: Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal1.unity using Guid(6e5259f884c97d045a11d4c9c216d541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62562c9254c5f780c3afbfd097bd5885') in 0.002158 seconds
-  Import took 0.005262 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 38.5 MB.
-System memory in use after: 38.7 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1897.
-Total: 2.595700 ms (FindLiveObjects: 0.177100 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.342000 ms  DeleteObjects: 0.014400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 748.085944 seconds.
-  path: Assets/Scenes/Portal3.unity
-  artifactKey: Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Portal3.unity using Guid(82202f92ba88b6942bb8a7e1deb9db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1e3bdf1f0b2c4066c767bbc460a06e') in 0.003032 seconds
-  Import took 0.006089 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000580 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.1 MB.
-System memory in use after: 67.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1900.
-Total: 1.716100 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.462800 ms  DeleteObjects: 0.024100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
